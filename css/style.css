@@ -27,6 +27,7 @@ main{
 
 #content{
     width: calc(100% - 50px);
+    overflow-y: auto;
 }
 header{
     height: 100px;
@@ -89,4 +90,42 @@ width: 100%;
     border: 1 px solid black;   
     background-color: purple;
     width: 33%;
+}
+.big-container{
+    border: 1px solid red;
+    width: 100%;
+}
+.spotify-menu{
+    border: 1px solid blue;
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.evidenza{
+    border: 1px solid black;
+    width: 22%;
+}
+.podcast{
+    border: 1px solid black;
+    width: 22%;
+}
+.classifiche{
+    border: 1px solid black;
+    width: 22%;
+}
+.generi-mood{
+    border: 1px solid black;
+    width: 22%;
+}
+.nuoveuscite{
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.scopri{
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 15px;
 }
