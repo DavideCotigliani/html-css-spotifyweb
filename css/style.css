@@ -5,8 +5,12 @@
 }
 
 footer{
-    height: 100px;
-    background-color: rgb(170, 169, 169);
+    width: 100%;
+    background-color: white(170, 169, 169);
+}
+
+.footer-container{
+    display: flex;
 }
 
 main{
@@ -23,13 +27,12 @@ main{
 
 #content{
     width: calc(100% - 50px);
-    overflow-y: auto;
 }
 header{
     height: 100px;
     background-color: rgb(37, 36, 36);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 .btn-upgrade{
     border: 1px solid white;
@@ -54,4 +57,36 @@ padding: 5px;
 
 .profile-img{
     width: 80%;
+}
+.left-footer{
+border: 1px solid rgb(20, 20, 20);
+width: 33%;
+background-color: yellow;
+height: 100px;
+margin: 5px;
+padding: 30px 0px;
+display: flex;
+}
+.sinisterimage img{
+width: 100%;
+}
+.sinistertitle{
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 0 0px;
+}
+.loghisinister{
+    border: 1px solid black;
+    width: 100%;
+}
+.center-footer{
+    border: 1px solid black;
+    background-color: rgb(200, 255, 0);
+    width: 33%;
+}
+
+.right-footer{
+    border: 1 px solid black;   
+    background-color: purple;
+    width: 33%;
 }
