@@ -248,6 +248,26 @@ width: 100%;
 .title-tracks{
     color: whitesmoke;
 }
+.john-container{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+}
+.radar{
+    border: 1px solid black;
+    width: 25%;
+}
+.radar img{
+    width: 100%;
+}
+.daily-mix{
+    border: 1px solid black;
+    width: 25%;
+}
+.daily-mix img{
+    width: 100%;
+}
 
 @media screen and (min-width: 683px) {
     #sidebar{
@@ -342,6 +362,72 @@ width: 100%;
         margin: 10px 0px;
         padding: 5px 5px;
      }
-     
-     
+     .metal{
+        border: 1px solid black;
+        width: 35%;
+    }
+    .metal img{
+        width: 100%;
+    }
+    .stranger-things{
+        border: 1px solid black;
+        width: 35%;
+    }
+    .stranger-things img{
+        width: 100%;
+    }
+    .quiet-place{
+        border: 1px solid black;
+        width: 35%;
+    }
+    .quiet-place img{
+    width: 100%;
+    }
+    
+    .split{
+        border: 1px solid black;
+        width: 35%;
+    }
+    .wellness{
+        border: 1px solid black;
+        width: 35%;
+    }
+    .wellness img{
+        width: 100%;
+    }
+    .sinisterplaylist{
+        border: 1px solid black;
+        width: 35%;
+    }
+    h2{
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .evidenza, .podcast, .classifiche,.nuoveuscite, .scopri, .generi-mood{
+        width: calc(100% / 5);
+    }
+    .metal, .stranger-things, .quiet-place, .split, .wellness, .sinisterplaylist{
+        width: calc(100% / 4);
+    }
+    .spotify-playlist{
+        border: 1px solid green;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+    .spotify-menu{
+        border: 1px solid blue;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .evidenza, .podcast, .classifiche,.nuoveuscite, .scopri, .generi-mood{
+        width: calc(60% / 6);
+    }
 }
