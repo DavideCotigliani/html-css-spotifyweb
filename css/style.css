@@ -21,10 +21,20 @@ main{
 
 #sidebar{
     width: 50px;
-    height: 100%;
     background-color: black;
 }
+.images-sidebar{
+    width: 100%;
+    border: 1px solid white;
+}
 
+.spotify-logo{
+    width: 100%;
+    border: 1px solid green;
+}
+.spotify-logogrande{
+    display: none;
+}
 #content{
     width: calc(100% - 50px);
     overflow-y: auto;
@@ -33,7 +43,7 @@ header{
     height: 100px;
     background-color: rgb(37, 36, 36);
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 .btn-upgrade{
     border: 1px solid white;
@@ -62,14 +72,18 @@ padding: 5px;
 .left-footer{
 border: 1px solid rgb(20, 20, 20);
 width: 33%;
-background-color: yellow;
 height: 100px;
-margin: 5px;
 padding: 30px 0px;
 display: flex;
 }
+.sinister-container {
+    border: 1px solid green;
+    width: 40%;
+    height: 40px;
+}
 .sinisterimage img{
 width: 100%;
+height: 40px;
 }
 .sinistertitle{
     border: 1px solid black;
@@ -86,6 +100,36 @@ width: 100%;
     width: 33%;
 }
 
+.home-bar{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.home{
+    display: none;
+}
+.search-bar{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.search{
+    display: none;
+}
+.libreria-bar{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.libreria{
+    display: none;
+}
+.installa{
+    display: none;
+}
+.doe{
+    display: none;
+}
 .right-footer{
     border: 1 px solid black;   
     background-color: purple;
@@ -97,7 +141,7 @@ width: 100%;
 }
 .spotify-menu{
     border: 1px solid blue;
-    width: 92%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -128,4 +172,156 @@ width: 100%;
     border: 1px solid black;
     width: 30%;
     margin-top: 15px;
+}
+h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+    display: none;
+}
+.spotify-playlist{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul{
+    display: none;
+}
+.metal{
+    border: 1px solid black;
+    width: 48%;
+}
+.metal img{
+    width: 100%;
+}
+.stranger-things{
+    border: 1px solid black;
+    width: 48%;
+}
+.stranger-things img{
+    width: 100%;
+}
+.quiet-place{
+    border: 1px solid black;
+    width: 48%;
+}
+.quiet-place img{
+width: 100%;
+}
+
+.split{
+    border: 1px solid black;
+    width: 48%;
+}
+.split img{
+    width: 100%;
+}
+.wellness{
+    border: 1px solid black;
+    width: 48%;
+}
+.wellness img{
+    width: 100%;
+}
+.sinisterplaylist{
+    border: 1px solid black;
+    width: 48%;
+}
+.sinisterplaylist img{
+    width: 100%;
+}
+
+.title-tracks{
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 683px) {
+    #sidebar{
+        width: 200px;
+        height: 100%;
+        background-color: black;
+    }
+    #content{
+        width: calc(100% - 100px);
+        overflow-y: auto;
+    }
+    .images-sidebar{
+        width: 100%;
+        border: 1px solid white;
+    }
+    .spotify-logo{
+        display: none; 
+    }
+    .spotify-logogrande{
+        display: block;
+        width: 70%;
+    }
+    .home-bar{
+        width: 30%;
+        color: white;
+        vertical-align: baseline;
+    }
+    .home {
+        display: block;
+    }
+    .search-bar{
+        width: 30%;
+        color: white;
+        display: flex;
+    }
+    .search{
+        display: block;
+    }
+    .libreria-bar{
+        width: 30%;
+        color: white;
+        display: flex;
+    }
+    .libreria{
+        display: block;
+    }
+    .download-img{
+        width: 30%
+    }
+    .profile-img{
+        width: 30%;
+    }
+    .installa{
+        color: white;
+        display: block;
+    }
+    .doe{
+        display: block;
+        color: white;
+    }
+    h3{
+        display: block;
+        margin: 30px;
+    }
+    ul{
+        display: block;
+        color: grey;
+    }
+    li{
+        line-height: 2;
+    }
+    .profile-logo{
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .download-img{
+     width: 30%;
+     margin-top: 230px;
+     padding: 5px;
+     }
+     
+     .profile-img{
+         width: 30%;
+     }
 }
