@@ -25,7 +25,6 @@ main{
 }
 .images-sidebar{
     width: 100%;
-    border: 1px solid white;
 }
 
 .spotify-logo{
@@ -123,6 +122,16 @@ height: 40px;
 }
 .libreria{
     display: none;
+}
+.logo-in-basso{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.secondo-logo-in-basso{
+    width: 100%;
+    color: white;
+    display: flex;
 }
 .installa{
     display: none;
@@ -252,7 +261,6 @@ width: 100%;
     }
     .images-sidebar{
         width: 100%;
-        border: 1px solid white;
     }
     .spotify-logo{
         display: none; 
@@ -291,13 +299,22 @@ width: 100%;
     .profile-img{
         width: 30%;
     }
+    .logo-in-basso{
+        width: 100%;
+        color: white;
+        display: flex;
+    }
     .installa{
         color: white;
         display: block;
+        margin-top: 250px;
+        padding-left: 10px;
     }
     .doe{
         display: block;
         color: white;
+        margin-top: 50px;
+        padding-left: 10px;
     }
     h3{
         display: block;
@@ -310,10 +327,6 @@ width: 100%;
     li{
         line-height: 2;
     }
-    .profile-logo{
-        display: flex;
-        flex-direction: column;
-     }
      
      .download-img{
      width: 30%;
@@ -324,4 +337,11 @@ width: 100%;
      .profile-img{
          width: 30%;
      }
+     .evidenza, .podcast, .classifiche,.nuoveuscite, .scopri, .generi-mood{
+        width: calc(100% / 3);
+        margin: 10px 0px;
+        padding: 5px 5px;
+     }
+     
+     
 }
