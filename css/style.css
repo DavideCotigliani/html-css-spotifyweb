@@ -386,6 +386,9 @@ width: 100%;
 .einaudi img{
     width: 100%;
 }
+.crea-playlist-btn{
+    display: none;
+}
 
 @media screen and (min-width: 683px) {
     #sidebar{
@@ -464,6 +467,7 @@ width: 100%;
     .crea-playlist-btn{
         color: white;
         margin: 10px 5px;
+        display: block;
     }
     .testo-playlist{
         color: white;
