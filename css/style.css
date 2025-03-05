@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Roboto Mono";
+}
 footer{
     width: 100%;
     background-color: white(170, 169, 169);
@@ -269,6 +272,27 @@ width: 100%;
     width: 100%;
 }
 
+.artisti-finali-container{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+}
+.delrey{
+    border: 1px solid black;
+    width: 25%;
+}
+.delrey img{
+    width: 100%;
+}
+.einaudi{
+    border: 1px solid black;
+    width: 25%;
+}
+.einaudi img{
+    width: 100%;
+}
+
 @media screen and (min-width: 683px) {
     #sidebar{
         width: 200px;
@@ -429,5 +453,19 @@ width: 100%;
     }
     .evidenza, .podcast, .classifiche,.nuoveuscite, .scopri, .generi-mood{
         width: calc(60% / 6);
+    }
+    .spotify-playlist{
+        border: 1px solid green;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .metal, .stranger-things, .quiet-place, .split, .wellness, .sinisterplaylist{
+        width: calc(90% / 6);
+    }
+    .radar, .daily-mix{
+        width: 15%;
+        margin: 10px;
     }
 }
