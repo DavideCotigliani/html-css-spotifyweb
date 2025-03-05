@@ -110,28 +110,54 @@ height: 40px;
     flex-wrap: wrap;
 }
 .shuffle-logo{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .backward-logo{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .play-logo{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .forward-logo{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .repeat-logo{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .song-bar{
-    border: 1px solid black;
     width: 60%;
+}
+.other-bar{
+    width: 45%;
+}
+.last-song-bar{
+    width: 100%;
+    padding: 5px 5px;
+    height: 1px;
+    border-radius: 10%;
+    margin-left: 0px;
+    margin-top: 5px;
+    background-color: rgb(173, 167, 167);
+}
+.mini-ending-bar{
+    background-color: whitesmoke;
+    border-radius: 10%;
+    height: 1px;
+    width: 25%;
+    padding: 5px 5px;
+    margin-left: -5px;
+    margin-top: -5px;
 }
 .long-bar{
     width: 95%;
@@ -152,12 +178,10 @@ height: 40px;
     background-color: whitesmoke;
 }
 .starting-number{
-    border: 1px solid black;
     width: 15%;
     margin-top: 15px;
 }
 .finishing-number{
-    border: 1px solid black;
     width: 25%;
     margin-top: 15px;
 }
@@ -203,8 +227,19 @@ height: 40px;
 }
 .right-footer{
     border: 1 px solid black;   
-    background-color: purple;
-    width: 33%;
+    background-color: rgb(82, 81, 81);
+    width: 34%;
+    display: flex;
+    align-items: center;
+}
+.list-logo{
+    width: 20%;
+}
+.display-logo{
+    width: 20%;
+}
+.volume-logo{
+    width: 10%;
 }
 .big-container{
     border: 1px solid red;
@@ -426,6 +461,7 @@ width: 100%;
     ul{
         display: block;
         color: grey;
+        padding-left: 10px;
     }
     li{
         line-height: 2;
