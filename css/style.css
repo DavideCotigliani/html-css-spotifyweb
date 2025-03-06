@@ -43,7 +43,7 @@ header{
     height: 100px;
     background-color: rgb(22, 21, 21);
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 .btn-upgrade{
     border: 1px solid white;
@@ -53,6 +53,12 @@ header{
     padding: 15px 32px;
     border-radius: 40%;
     font-size: 12px;
+    background-color: transparent; 
+    transition: all 0.3s ease;
+}
+.btn-upgrade:hover {
+    color: white;
+    transform: scale(1.1); 
 }
 
 .profile-logo{
@@ -86,16 +92,20 @@ height: 40px;
 .scritte-container{
     width: 100%;
 }
-.sinistertitle{
+.sinistertitle:hover{
     margin-right: 20px;
     padding: 0 0px;
+    color: white; 
+    transform: scale(1.05); 
 }
 .loghi-container{
     width: 100%;
 }
-.loghisinister{
+.loghisinister:hover{
     width: 100%;
     padding-right: 50px;
+    color: white; 
+        transform: scale(1.05); 
 }
 .center-footer{
     background-color: rgb(82, 81, 81);
@@ -130,7 +140,7 @@ height: 40px;
     padding-top: 10px;
 }
 .song-bar{
-    width: 60%;
+    width: 55%;
 }
 .other-bar{
     width: 45%;
@@ -153,6 +163,11 @@ height: 40px;
     margin-left: -5px;
     margin-top: -5px;
 }
+.mini-ending-bar:hover{
+    background-color: #a9db34;
+    color: white;
+    transform: scale(1.1); 
+}
 .long-bar{
     width: 95%;
     padding: 5px 5px;
@@ -171,12 +186,17 @@ height: 40px;
     margin-top: -5px;
     background-color: whitesmoke;
 }
+.little-bar:hover{
+    background-color: #a9db34;
+    color: white;
+    transform: scale(1.1); 
+}
 .starting-number{
     width: 15%;
     margin-top: 15px;
 }
 .finishing-number{
-    width: 25%;
+    width: 20%;
     margin-top: 15px;
 }
 .home-bar{
@@ -243,6 +263,10 @@ height: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.evidenza:hover, .podcast:hover, .classifiche:hover, .generi-mood:hover, .nuoveuscite:hover, .scopri:hover{
+    color: white; 
+    transform: scale(1.05); 
+}
 .evidenza{
     width: 22%;
 }
@@ -296,7 +320,7 @@ h3{
     position: absolute; 
     top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -100%); 
     font-size: 40px;
     color: white; 
     opacity: 0;
@@ -330,7 +354,7 @@ ul{
     position: absolute; 
     top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -100%); 
     font-size: 40px;
     color: white; 
     opacity: 0;
@@ -377,7 +401,7 @@ width: 100%;
     position: absolute; 
     top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -100%); 
     font-size: 40px;
     color: white; 
     opacity: 0;
@@ -398,17 +422,104 @@ width: 100%;
 .split img{
     width: 100%;
 }
+.spotify-playlist .split{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.spotify-playlist .split img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.spotify-playlist .split .play-icon{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -100%); 
+    font-size: 40px;
+    color: white; 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.spotify-playlist .split:hover img{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+}
+.spotify-playlist .split:hover .play-icon{
+    opacity: 1;
+}
 .wellness{
     width: 48%;
 }
 .wellness img{
     width: 100%;
 }
+.spotify-playlist .wellness{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.spotify-playlist .wellness img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.spotify-playlist .wellness .play-icon{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -100%); 
+    font-size: 40px;
+    color: white; 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.spotify-playlist .wellness:hover img{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+}
+.spotify-playlist .wellness:hover .play-icon{
+    opacity: 1;
+}
 .sinisterplaylist{
     width: 48%;
 }
 .sinisterplaylist img{
     width: 100%;
+}
+.spotify-playlist .sinisterplaylist{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.spotify-playlist .sinisterplaylist img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.spotify-playlist .sinisterplaylist .play-icon{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -100%); 
+    font-size: 40px;
+    color: white; 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.spotify-playlist .sinisterplaylist:hover img{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+}
+.spotify-playlist .sinisterplaylist:hover .play-icon{
+    opacity: 1;
 }
 
 .title-tracks{
@@ -494,12 +605,20 @@ width: 100%;
     .home {
         display: block;
     }
+    .home-bar:hover{
+        color: white; 
+        transform: scale(1.05); 
+    }
     .search-bar{
         width: 30%;
         color: white;
         display: flex;
         padding: 10px;
         padding-left: 5px;
+    }
+    .search-bar:hover{
+        color: white; 
+        transform: scale(1.05); 
     }
     .search{
         display: block;
@@ -511,8 +630,16 @@ width: 100%;
         padding: 10px;
         padding-left: 5px;
     }
+    .libreria-bar:hover{
+        color: white; 
+        transform: scale(1.05); 
+    }
     .libreria{
         display: block;
+    }
+    .libreria:hover{
+        color: white; 
+        transform: scale(1.05); 
     }
     .download-img{
         width: 30%
@@ -544,6 +671,10 @@ width: 100%;
     .contenuto-della-playlist{
         display: flex;
     }
+    .contenuto-della-playlist:hover{
+        color: white; 
+        transform: scale(1.05); 
+    }
     .crea-playlist-btn{
         color: white;
         margin: 10px 5px;
@@ -558,6 +689,10 @@ width: 100%;
         display: block;
         color: grey;
         padding-left: 10px;
+    }
+    ul li:hover{
+        color: white; 
+        transform: scale(1.05); 
     }
     li{
         line-height: 2;
