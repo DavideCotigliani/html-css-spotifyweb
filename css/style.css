@@ -9,7 +9,6 @@ body{
 }
 footer{
     width: 100%;
-    background-color: white(170, 169, 169);
 }
 
 .footer-container{
@@ -32,7 +31,6 @@ main{
 
 .spotify-logo{
     width: 100%;
-    border: 1px solid green;
 }
 .spotify-logogrande{
     display: none;
@@ -72,16 +70,13 @@ padding: 5px;
     width: 80%;
 }
 .left-footer{
-border: 1px solid rgb(20, 20, 20);
 background-color: rgb(82, 81, 81);
 width: 33%;
-height: 100px;
 padding: 30px 0px;
 display: flex;
 justify-content: space-around;
 }
 .sinister-container {
-    border: 1px solid green;
     width: 40%;
 }
 .sinisterimage img{
@@ -103,7 +98,6 @@ height: 40px;
     padding-right: 50px;
 }
 .center-footer{
-    border: 1px solid black;
     background-color: rgb(82, 81, 81);
     width: 33%;
     display: flex;
@@ -225,8 +219,7 @@ height: 40px;
 .doe{
     display: none;
 }
-.right-footer{
-    border: 1 px solid black;   
+.right-footer{ 
     background-color: rgb(82, 81, 81);
     width: 34%;
     display: flex;
@@ -242,40 +235,32 @@ height: 40px;
     width: 10%;
 }
 .big-container{
-    border: 1px solid red;
     width: 100%;
 }
 .spotify-menu{
-    border: 1px solid blue;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .evidenza{
-    border: 1px solid black;
     width: 22%;
 }
 .podcast{
-    border: 1px solid black;
     width: 22%;
 }
 .classifiche{
-    border: 1px solid black;
     width: 22%;
 }
 .generi-mood{
-    border: 1px solid black;
     width: 22%;
 }
 .nuoveuscite{
-    border: 1px solid black;
     width: 20%;
     margin-left: 20%;
     margin-top: 15px;
 }
 .scopri{
-    border: 1px solid black;
     width: 30%;
     margin-top: 15px;
 }
@@ -289,7 +274,6 @@ h3{
     display: none;
 }
 .spotify-playlist{
-    border: 1px solid green;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -299,21 +283,19 @@ ul{
     display: none;
 }
 .metal{
-    border: 1px solid black;
     width: 48%;
 }
 .metal img{
     width: 100%;
+    background-color: yellow;
 }
 .stranger-things{
-    border: 1px solid black;
     width: 48%;
 }
 .stranger-things img{
     width: 100%;
 }
 .quiet-place{
-    border: 1px solid black;
     width: 48%;
 }
 .quiet-place img{
@@ -321,21 +303,18 @@ width: 100%;
 }
 
 .split{
-    border: 1px solid black;
     width: 48%;
 }
 .split img{
     width: 100%;
 }
 .wellness{
-    border: 1px solid black;
     width: 48%;
 }
 .wellness img{
     width: 100%;
 }
 .sinisterplaylist{
-    border: 1px solid black;
     width: 48%;
 }
 .sinisterplaylist img{
@@ -346,20 +325,17 @@ width: 100%;
     color: whitesmoke;
 }
 .john-container{
-    border: 1px solid green;
     width: 100%;
     display: flex;
     gap: 3%;
 }
 .radar{
-    border: 1px solid black;
     width: 25%;
 }
 .radar img{
     width: 100%;
 }
 .daily-mix{
-    border: 1px solid black;
     width: 25%;
 }
 .daily-mix img{
@@ -367,20 +343,17 @@ width: 100%;
 }
 
 .artisti-finali-container{
-    border: 1px solid green;
     width: 100%;
     display: flex;
     gap: 3%;
 }
 .delrey{
-    border: 1px solid black;
     width: 25%;
 }
 .delrey img{
     width: 100%;
 }
 .einaudi{
-    border: 1px solid black;
     width: 25%;
 }
 .einaudi img{
@@ -388,6 +361,9 @@ width: 100%;
 }
 .crea-playlist-btn{
     display: none;
+}
+.color-grey{
+    color: grey;
 }
 
 @media screen and (min-width: 683px) {
@@ -409,11 +385,14 @@ width: 100%;
     .spotify-logogrande{
         display: block;
         width: 70%;
+        padding: 10px;
     }
     .home-bar{
         width: 30%;
         color: white;
-        vertical-align: baseline;
+        vertical-align: middle;
+        padding: 10px;
+        padding-left: 5px;
     }
     .home {
         display: block;
@@ -422,6 +401,8 @@ width: 100%;
         width: 30%;
         color: white;
         display: flex;
+        padding: 10px;
+        padding-left: 5px;
     }
     .search{
         display: block;
@@ -430,6 +411,8 @@ width: 100%;
         width: 30%;
         color: white;
         display: flex;
+        padding: 10px;
+        padding-left: 5px;
     }
     .libreria{
         display: block;
@@ -498,21 +481,18 @@ width: 100%;
         padding: 5px 5px;
      }
      .metal{
-        border: 1px solid black;
         width: 35%;
     }
     .metal img{
         width: 100%;
     }
     .stranger-things{
-        border: 1px solid black;
         width: 35%;
     }
     .stranger-things img{
         width: 100%;
     }
     .quiet-place{
-        border: 1px solid black;
         width: 35%;
     }
     .quiet-place img{
@@ -520,18 +500,15 @@ width: 100%;
     }
     
     .split{
-        border: 1px solid black;
         width: 35%;
     }
     .wellness{
-        border: 1px solid black;
         width: 35%;
     }
     .wellness img{
         width: 100%;
     }
     .sinisterplaylist{
-        border: 1px solid black;
         width: 35%;
     }
     h2{
@@ -546,7 +523,6 @@ width: 100%;
         width: calc(100% / 4);
     }
     .spotify-playlist{
-        border: 1px solid green;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -557,7 +533,6 @@ width: 100%;
 
 @media screen and (min-width: 1300px) {
     .spotify-menu{
-        border: 1px solid blue;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -566,7 +541,6 @@ width: 100%;
         width: calc(60% / 6);
     }
     .spotify-playlist{
-        border: 1px solid green;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
